@@ -66,8 +66,6 @@ export class AppComponent{
     else{
       this.reverse = true;
     }
-    console.log(this.showProperty);
-    console.log(this.reverse)
   }
 
 }
