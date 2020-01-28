@@ -1,1 +1,33 @@
-/* You can add global styles to this file, and also import other style files */
+
+.boxed-btn3 {
+    background: #615CFD;
+    color: #fff;
+    display: inline-block;
+    padding: 12px 33px;
+    font-family: "Muli", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    border: 0;
+    border: 1px solid transparent;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    text-align: center;
+    color: #fff !important;
+    text-transform: capitalize;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  
+  .boxed-btn3:hover {
+    border: 1px solid #615CFD;
+    color: #615CFD !important;
+    background: transparent;
+  }
+  
+  .boxed-btn3:focus {
+    outline: none;
+  }
